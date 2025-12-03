@@ -1,6 +1,6 @@
 FROM node:14-alpine
 RUN apk add --no-cache git python3 make g++
-RUN git clone -q https://github.com/najasoft/todo-app.git
+RUN git clone -q https://github.com/Youssef-olb10/todo-app/tree/main
 WORKDIR /todo-app
 COPY . .
 RUN yarn install --production
